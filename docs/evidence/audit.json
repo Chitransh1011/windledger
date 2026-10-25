@@ -1,0 +1,94 @@
+{
+  "retrieved_at": "2026-10-25T08:30:27.905781+00:00",
+  "sha256": "04cfa361fcc9f47a42219db3fef6d058d40b65facd31f1f66887c5f4b05c3978",
+  "quality": {
+    "WINDFOR": {
+      "invalid": 0,
+      "duplicates": 0,
+      "null_values": 0
+    },
+    "FUELHH": {
+      "invalid": 0,
+      "duplicates": 0,
+      "null_values": 0
+    }
+  },
+  "metrics_at_0950": {
+    "mae": 1995.5685483870968,
+    "rmse": 2498.8245110107187,
+    "bias": 1727.9825268817203,
+    "matched": 744,
+    "expected": 1488,
+    "forecasts": 744,
+    "actuals": 1488,
+    "coverage": 0.5,
+    "forecast_match_coverage": 1.0
+  },
+  "WINDFOR": {
+    "records": 22192,
+    "target_min": "2025-12-24T21:00:00+00:00",
+    "target_max": "2026-02-02T21:00:00+00:00",
+    "publication_min": "2025-12-25T02:30:00+00:00",
+    "publication_max": "2026-01-31T22:30:00+00:00",
+    "target_minutes": [
+      0
+    ],
+    "target_spacing_minutes": {
+      "60": 960
+    }
+  },
+  "FUELHH": {
+    "records": 1488,
+    "target_min": "2026-01-02T00:00:00+00:00",
+    "target_max": "2026-02-01T23:30:00+00:00",
+    "publication_min": "2026-01-02T00:30:00+00:00",
+    "publication_max": "2026-02-02T00:00:00+00:00",
+    "target_minutes": [
+      0,
+      30
+    ],
+    "target_spacing_minutes": {
+      "30": 1487
+    }
+  },
+  "lowest_daily_mae": {
+    "decision_date": "2026-01-18",
+    "delivery_date": "2026-01-19",
+    "cutoff": "2026-01-18T09:50:00+00:00",
+    "timezone": "Europe/London",
+    "publication_min": "2026-01-18T09:30:00+00:00",
+    "publication_max": "2026-01-18T09:30:00+00:00",
+    "publication_count": 1,
+    "metrics": {
+      "mae": 750.0416666666666,
+      "rmse": 836.3654753355936,
+      "bias": -744.375,
+      "matched": 24,
+      "expected": 48,
+      "forecasts": 24,
+      "actuals": 48,
+      "coverage": 0.5,
+      "forecast_match_coverage": 1.0
+    }
+  },
+  "highest_daily_mae": {
+    "decision_date": "2026-01-27",
+    "delivery_date": "2026-01-28",
+    "cutoff": "2026-01-27T09:50:00+00:00",
+    "timezone": "Europe/London",
+    "publication_min": "2026-01-27T09:30:00+00:00",
+    "publication_max": "2026-01-27T09:30:00+00:00",
+    "publication_count": 1,
+    "metrics": {
+      "mae": 5328.958333333333,
+      "rmse": 5355.708624916035,
+      "bias": 5328.958333333333,
+      "matched": 24,
+      "expected": 48,
+      "forecasts": 24,
+      "actuals": 48,
+      "coverage": 0.5,
+      "forecast_match_coverage": 1.0
+    }
+  }
+}
