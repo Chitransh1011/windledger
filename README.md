@@ -2,7 +2,7 @@
 
 A small React and Python dashboard for replaying the wind forecasts available to a GB day-ahead purchasing team, then reviewing their accuracy retrospectively. The pilot covers **decisions from 1–31 January 2026**, with **deliveries from 2 January–1 February 2026**.
 
-**Live application: NOT DEPLOYED — replace with the verified public Vercel frontend URL before submission.**
+**Live application: [https://frontend-silk-nu-81.vercel.app](https://frontend-silk-nu-81.vercel.app)**
 
 This product does not forecast demand, train a model, recommend trades, or calculate the utility's exact purchase quantity. National wind generation is not the utility's own renewable allocation.
 
